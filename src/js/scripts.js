@@ -71,7 +71,7 @@ camera.add(listener);
 const sound = new THREE.Audio(listener);
 
 const audioLoader = new THREE.AudioLoader();
-audioLoader.load('./assets/Beats.mp3', function(buffer) {
+audioLoader.load('./assets/Beatsapes.mp3', function(buffer) {
 	sound.setBuffer(buffer);
 	window.addEventListener('click', function() {
 		sound.play();
